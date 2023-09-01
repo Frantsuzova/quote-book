@@ -2,7 +2,8 @@ randomQuote ();
 changeColor ();
 
 
-$(".btn-new").on('click', function() {
+
+$(document).on('click', 'a', function() {
   randomQuote();
   changeColor();
 });
